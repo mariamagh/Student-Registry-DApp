@@ -16,5 +16,8 @@ COPY . .
 # 6. On ouvre le port 3000 (celui de ton serveur)
 EXPOSE 3000
 
+RUN npx hardhat compile
+
 # 7. La commande pour démarrer quand on ouvre la boîte
 CMD ["node", "server/server.js"]
+
