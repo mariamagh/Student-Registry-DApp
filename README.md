@@ -14,7 +14,7 @@ StudentRegistry/
 │   └── server.js              # Backend relayer server
 ├── client/
 │   └── dashboard.html         # Frontend dashboard
-├── .env                       # Environment variables (create this)
+├── .env                       # Environment variables 
 ├── hardhat.config.js          # Hardhat configuration
 └── package.json
 ```
